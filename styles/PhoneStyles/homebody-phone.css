@@ -1,0 +1,22 @@
+@media (max-width:900px) and (min-width:700px){
+    html .site-info-container img {
+        max-width: 300px;
+    }
+    html .site-info-container section{
+        margin-right: 350px;
+    }
+}
+@media (max-width:700px){
+    html .site-info-container img {
+        max-width: 250px;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    html .site-info-container section{
+        margin-right: 0px;
+    }
+}

@@ -1,0 +1,69 @@
+body{
+    background: radial-gradient(circle, #4d005a, #271f5c, #022650, #07283e, #1c252a);
+}
+.site-info-container img{
+    max-width: 450px;
+    border: #000;
+    border-radius: 100%;
+    float: right;
+    box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.50);
+    margin-right: 25px;
+    border: 5px solid #444;
+}
+.site-info-container section{
+    margin-right: 500px;
+}
+.site-info-container{
+    line-height: 1.6em
+}
+
+section.intro{
+    margin-top: 50px;
+    padding-left: 20px;
+    line-height: 2.6em;
+    background: #ddd;
+    border: 5px solid #444;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+section.intro h1{
+    padding-top: 50px;
+    margin: 0px;
+    margin-bottom: 5px;
+    font-size: 25pt;
+    color: #0d9bcb;
+}
+section.intro p{
+    margin-top: 5px;
+    font-size: 30pt;
+    font-weight: bold;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+}
+
+section.profil{
+    margin-top: 10px;
+    background: #ddd;
+    border: 5px solid #444;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+section.profil h1{
+    color: #0d9bcb;
+}
+section.profil a{
+    padding: 5px 10px;
+    background: red;
+    border: 1px solid black;
+    text-decoration: none;
+    color: #eee;
+    border-radius: 5px;
+}
+section.profil a:hover{
+    background:#1c252a;
+    color: #0D9BCB;
+}
+

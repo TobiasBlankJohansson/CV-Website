@@ -1,0 +1,112 @@
+.projectlist-container{
+    padding:10px 0px;
+    margin:25px 0px;
+    border-radius: 30px;
+    background: #ddd;
+    box-shadow: 0px 0px 5px 5px rgba(130, 130, 130, 0.75);
+}
+.projectlist-container ul{
+    margin: 0px;
+    padding: 0px;
+}
+.projectlist-container ul li{
+    float: left;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    list-style: none;
+    box-sizing: border-box;
+}
+.projectlist-container ul li a{
+    text-decoration: none;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 20pt;
+    border: 1px solid black;
+    background: #bbb;
+    padding: 10px;
+    border-radius: 10px;
+    color:black
+}
+.projectlist-container ul li a:hover{
+    color:#0D9BCB;
+    background-image: radial-gradient(circle, #4d005a, #271f5c, #022650, #07283e, #1c252a);
+}
+
+.porject-right-container{
+    padding: 50px 0px;
+    margin:25px 0px;
+    background: #ddd;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 5px rgba(130, 130, 130, 0.75);
+}
+.porject-right-container img{
+    margin-left: 50px;
+    float: left;
+    width: 450px;
+
+}
+.porject-right-container-content{
+    margin-left: 550px;
+}
+.porject-right-container-content h2{
+    margin-top: 0px;
+}
+.porject-right-container-content p{
+    max-width: 300px;
+}
+.porject-right-container-content a{
+    display: block;
+    width: fit-content;
+    border:1px solid #1c252a;
+    border-radius: 5px;
+    background: #0D9BCB;
+    text-decoration: none;
+    color: #eee;
+    padding: 5px 15px;
+    margin-top: 50px;
+}
+.porject-right-container-content a:hover{
+    background:#1c252a;
+    color: #0D9BCB;
+}
+
+.porject-left-container{
+    padding:50px 0px;
+    margin:25px 0px;
+    border-radius: 30px;
+    background: #ddd;
+    box-shadow: 0px 0px 5px 5px rgba(130, 130, 130, 0.75);
+}
+.porject-left-container img{
+    margin-right: 50px;
+    float: right;
+    width: 450px;
+}
+.porject-left-container-content{
+    margin-right: 550px;
+    margin-left: 50px;
+    
+}
+.porject-left-container-content h2{
+    margin-top: 0px;
+}
+.porject-left-container-content p{
+    max-width: 300px;
+}
+.porject-left-container-content a{
+    display: block;
+    width: fit-content;
+    border:1px solid #1c252a;
+    border-radius: 5px;
+    background: #0D9BCB;
+    text-decoration: none;
+    color: #eee;
+    padding: 5px 15px;
+    margin-top: 50px;
+}
+.porject-left-container-content a:hover{
+    background:#1c252a;
+    color: #0D9BCB;
+}

@@ -1,0 +1,12 @@
+@media (max-width:800px) and (min-width:550px){
+    html .contact-container section {
+        padding: 30px;
+    }
+}
+@media (max-width:550px){
+    html .contact-container section {
+        padding: 60px;
+        float: none;
+        width: auto
+    }
+}

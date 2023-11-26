@@ -1,0 +1,41 @@
+@media (max-width:550px){
+    html .title-container {
+        height: 150px;
+    }
+    html .title-container h1 {
+        padding-top:30px ;
+        font-size: 40pt;
+    }
+
+    html .call-to-action{
+        height: 150px;
+    }
+    html .call-to-action h1{
+        padding-top: 10px;
+        font-size: 30pt;
+    }
+
+    html .sidebar-container{
+        width: 130px;
+        font-size: 75%;
+    }
+    html .sidebar-container .sidebar-top img {
+        width: 120px;
+    }
+
+    html .middel-container{
+        margin-left: 130px;
+        padding: 10px;
+        font-size: 75%;
+    }
+    html .middel-container > section > section {
+        padding-left: 50px;
+    }
+    html .middel-container .time-spent{
+        width: 40px;
+        margin-left: -50px
+    }
+    html .middel-container .time-spent p{
+        font-size: 75%;
+    }
+}

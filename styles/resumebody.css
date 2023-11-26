@@ -1,0 +1,104 @@
+body{
+    background: #fff;
+}
+
+.content{
+    margin-top: 25px;
+    position: relative;
+    line-height: 1.6em;
+    box-shadow: 0px 0px 5px 5px rgba(130, 130, 130, 0.75);
+    border-radius: 30px;
+}
+
+.sidebar-container{
+    margin-top: 0px;
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    width: 210px;
+    background-color: #212e3b;
+    border-radius: 30px 0px 0px 30px;
+}
+.sidebar-container .sidebar-top img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 100%;
+}
+.sidebar-container .sidebar-top h1{
+    padding-left: 15px;
+    color:#fff;
+    
+}
+.sidebar-container .sidebar-info {
+    color:#fff;
+}
+.sidebar-container .sidebar-info h1{
+    background: #17212e;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #1a64c3;
+    padding: 5px;
+    padding-left: 15px;
+}
+.sidebar-container .sidebar-info ul{
+    padding-left: 15px;
+    margin-top: 10px;
+}
+.sidebar-container .sidebar-info ul li{
+    list-style: none;
+    margin-left:0px
+}
+
+.middel-container{
+    margin-left:210px;
+    padding: 20px;
+    padding-right: 50px;
+    background: #fff;
+    border-radius: 0px 30px 30px 0px;
+}
+.middel-container > section:first-child > h1{
+    margin-top: 0px;
+}
+.middel-container h1{ 
+    color:#115ab9;
+    padding: 5px 0px;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+}
+.middel-container > section > section{
+    position: relative;
+    padding-left: 80px;
+}
+.middel-container .time-spent{
+    display: block;
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    width: 70px;
+    margin-left: -80px;
+}
+.middel-container .time-spent p{
+    margin: 0px;
+    font-size: 9pt;
+    line-height: 1.6em;
+    font-style: normal;
+}
+.middel-container h2{
+    margin-bottom: 0px;
+    text-decoration:underline;
+}
+
+.middel-container section p{
+    margin-top:0px;
+    font-style: italic;
+}
+.middel-container section h3{
+    margin-bottom: 5px;
+}
+.middel-container section ul{
+    padding-left: 20px;
+    margin-top: 5px;
+}
